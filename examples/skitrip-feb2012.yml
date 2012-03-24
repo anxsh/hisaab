@@ -1,0 +1,37 @@
+persons:
+    - apu
+    - matt
+    - grace
+    - brian
+    - neville
+    - anita
+    
+expenses:
+    -
+        payer: apu
+        item: 'lodge rental'
+        amount: 400
+    - 
+        payer: matt
+        item: 'thai dinner'
+        amount: 110
+    - 
+        payer: grace
+        item: 'lunch at ski resort'
+        amount: 75
+        exclude:
+            - neville
+            - anita
+    -
+        payer: anita
+        item: 'gas, car rental'
+        amount: 200
+            
+groups:
+    wilkin:
+        - matt
+        - grace
+    souza:
+        - neville
+        - anita
+        
