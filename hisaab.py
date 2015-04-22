@@ -24,7 +24,6 @@ def do_hisaab(expenses):
 			person_group[person] = person
 	
 	total_amount = 0.0
-
 	debit = {}
 	credit = {}
 	for person in persons:
